@@ -1,0 +1,18 @@
+{
+  "user": [
+    {
+      "userName": "Michał",
+      "password": "testtest",
+      "id": "michal@gmail.com",
+      "permission": "",
+      "color": ""
+    },
+    {
+      "userName": "test",
+      "password": "testtest",
+      "id": "test@gmail.com",
+      "permission": "",
+      "color": ""
+    }
+  ]
+}
