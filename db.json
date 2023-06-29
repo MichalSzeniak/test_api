@@ -1,18 +1,209 @@
 {
   "user": [
     {
-      "userName": "Michał",
+      "userName": "Michał Sze",
       "password": "testtest",
       "id": "michal@gmail.com",
-      "permission": "",
-      "color": ""
+      "permission": "Koordynacja",
+      "color": "green-3",
+      "permissions": [
+        {
+          "id": 1,
+          "name": "dane geodezyjne",
+          "active": false
+        },
+        {
+          "id": 2,
+          "name": "dane projektowe",
+          "active": false
+        },
+        {
+          "id": 3,
+          "name": "dane realizacji",
+          "active": false
+        },
+        {
+          "id": 4,
+          "name": "dane sekcji prawnej",
+          "active": false
+        },
+        {
+          "id": 5,
+          "name": "pliki geodezyjne",
+          "active": false
+        },
+        {
+          "id": 6,
+          "name": "pliki projektowe",
+          "active": false
+        },
+        {
+          "id": 7,
+          "name": "pliki realizacji",
+          "active": false
+        },
+        {
+          "id": 8,
+          "name": "pliki sekcji prawnej",
+          "active": false
+        }
+      ],
+      "status": "active"
     },
     {
       "userName": "test",
-      "password": "testtest",
+      "password": "",
       "id": "test@gmail.com",
-      "permission": "",
-      "color": ""
+      "permission": "Księgowy",
+      "color": "green",
+      "permissions": [
+        {
+          "id": 1,
+          "name": "dane geodezyjne",
+          "active": false
+        },
+        {
+          "id": 2,
+          "name": "dane projektowe",
+          "active": false
+        },
+        {
+          "id": 3,
+          "name": "dane realizacji",
+          "active": false
+        },
+        {
+          "id": 4,
+          "name": "pliki geodezyjne",
+          "active": false
+        },
+        {
+          "id": 5,
+          "name": "pliki projektowe",
+          "active": false
+        },
+        {
+          "id": 6,
+          "name": "pliki realizacji",
+          "active": false
+        }
+      ],
+      "status": "blocked"
+    },
+    {
+      "userName": "Nowy użytkownik",
+      "password": "",
+      "id": "nowy@o2.pl",
+      "permission": "Księgowy",
+      "color": "light-red",
+      "status": "blocked",
+      "permissions": [{}]
     }
-  ]
+  ],
+  "notifications": {
+    "notificationGroups": [
+      {
+        "email": true,
+        "web": true,
+        "name": "3 dni przed datą terminu składania oferty do stanowiska Koordynator",
+        "id": "3 dni przed datą terminu składania oferty do stanowiska Koordynator"
+      },
+      {
+        "email": true,
+        "web": true,
+        "name": "przydzielenia do zadania (kierownik pracowni projektowej)",
+        "id": "przydzielenia do zadania (kierownik pracowni projektowej)"
+      },
+      {
+        "email": true,
+        "web": true,
+        "name": "przydzielenie nowego zadania dla projektanta",
+        "id": "przydzielenie nowego zadania dla projektanta"
+      },
+      {
+        "email": true,
+        "web": true,
+        "name": "Pracownia geodezji w momencie przydzielenia zadania przez projektanta",
+        "id": "Pracownia geodezji w momencie przydzielenia zadania przez projektanta"
+      },
+      {
+        "email": true,
+        "web": true,
+        "name": "przydzielenia nowego zadania dla geodety",
+        "id": "przydzielenia nowego zadania dla geodety"
+      },
+      {
+        "email": true,
+        "web": false,
+        "name": "zakończenie opracowania geodezyjnego (dla projektanta/opracowującego) (w momencie wpisania daty klauzuli pojawia się powiadomienie dla projektanta)",
+        "id": "zakończenie opracowania geodezyjnego (dla projektanta/opracowującego) (w momencie wpisania daty klauzuli pojawia się powiadomienie dla projektanta)"
+      },
+      {
+        "email": true,
+        "web": true,
+        "name": "Przydzielenie do kierownika Sekcji formalno-prawnej",
+        "id": "Przydzielenie do kierownika Sekcji formalno-prawnej"
+      },
+      {
+        "email": false,
+        "web": false,
+        "name": "przydzielenia nowego zadania dla pracownika SFP",
+        "id": "przydzielenia nowego zadania dla pracownika SFP"
+      },
+      {
+        "email": false,
+        "web": false,
+        "name": "skierowano do uzupełnienia braków (do projektanta/opracowującego)",
+        "id": "skierowano do uzupełnienia braków (do projektanta/opracowującego)"
+      },
+      {
+        "email": false,
+        "web": false,
+        "name": "Odebrano dokumentację projektową",
+        "id": "Odebrano dokumentację projektową"
+      },
+      {
+        "email": false,
+        "web": false,
+        "name": "Przekazano do realizacji (Kierownicy brygad - przydzielenie zadań)",
+        "id": "Przekazano do realizacji (Kierownicy brygad - przydzielenie zadań)"
+      },
+      {
+        "email": false,
+        "web": false,
+        "name": "Geodeta - zaplanowano prace budowlane montażowe",
+        "id": "Geodeta - zaplanowano prace budowlane montażowe"
+      },
+      {
+        "email": false,
+        "web": false,
+        "name": "przydzielenia do zadania (kierownik Sekcji odbioru inwestycji)",
+        "id": "przydzielenia do zadania (kierownik Sekcji odbioru inwestycji)"
+      },
+      {
+        "email": false,
+        "web": false,
+        "name": "skierowano do uzupełnienia braków (Kierownik brygad)",
+        "id": "skierowano do uzupełnienia braków (Kierownik brygad)"
+      },
+      {
+        "email": false,
+        "web": false,
+        "name": "przydzielenia nowego zadania dla pracownika SOI",
+        "id": "przydzielenia nowego zadania dla pracownika SOI"
+      },
+      {
+        "email": false,
+        "web": false,
+        "name": "Protokół techniczny - dla Kierownika SOI",
+        "id": "Protokół techniczny - dla Kierownika SOI"
+      },
+      {
+        "email": false,
+        "web": false,
+        "name": "Zadanie zakończone - dla Kierownika SOI",
+        "id": "Zadanie zakończone - dla Kierownika SOI"
+      }
+    ]
+  }
 }

@@ -1,0 +1,12 @@
+{
+  "git-autoconfig.configList": [
+    {
+      "user.email": "m.szeniak@ultimate.systems",
+      "user.name": "MichalUS"
+    },
+    {
+      "user.email": "michal.szeniak@gmail.com",
+      "user.name": "Michal"
+    }
+  ]
+}
