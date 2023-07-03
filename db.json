@@ -405,11 +405,11 @@
       "repeatPassword": ""
     },
     {
-      "userName": "das",
-      "password": "testtest",
-      "id": "dasd@o2.pl",
+      "userName": "admin",
+      "password": "admin",
+      "id": "admin",
       "permission": "",
-      "color": "",
+      "color": "blue",
       "status": "active"
     }
   ],
