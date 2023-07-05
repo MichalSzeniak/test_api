@@ -1,51 +1,26 @@
 {
   "user": [
     {
-      "userName": "Michał Sz",
+      "userName": "Michał Szen",
       "password": "testtest",
       "id": "michal@gmail.com",
-      "permission": "Koordynacja",
-      "color": "green-3",
+      "permission": "Administrator",
+      "color": "pink-2",
       "permissions": [
         {
           "id": 1,
-          "name": "dane geodezyjne",
-          "active": false
+          "name": "SOK - Sekcja obsługi Klienta",
+          "active": true
         },
         {
           "id": 2,
-          "name": "dane projektowe",
-          "active": false
+          "name": "SFP - Sekcja formalno prawna",
+          "active": true
         },
         {
           "id": 3,
-          "name": "dane realizacji",
-          "active": false
-        },
-        {
-          "id": 4,
-          "name": "dane sekcji prawnej",
-          "active": false
-        },
-        {
-          "id": 5,
-          "name": "pliki geodezyjne",
-          "active": false
-        },
-        {
-          "id": 6,
-          "name": "pliki projektowe",
-          "active": false
-        },
-        {
-          "id": 7,
-          "name": "pliki realizacji",
-          "active": false
-        },
-        {
-          "id": 8,
-          "name": "pliki sekcji prawnej",
-          "active": false
+          "name": "SOI - Sekcja odbioru inwestycji",
+          "active": true
         }
       ],
       "status": "active",
@@ -66,7 +41,7 @@
         {
           "id": 2,
           "name": "dane projektowe",
-          "active": false
+          "active": true
         },
         {
           "id": 3,
@@ -76,7 +51,7 @@
         {
           "id": 4,
           "name": "pliki geodezyjne",
-          "active": false
+          "active": true
         },
         {
           "id": 5,
@@ -86,7 +61,7 @@
         {
           "id": 6,
           "name": "pliki realizacji",
-          "active": false
+          "active": true
         }
       ],
       "status": "blocked",
@@ -103,12 +78,12 @@
         {
           "id": 1,
           "name": "dane geodezyjne",
-          "active": false
+          "active": true
         },
         {
           "id": 2,
           "name": "dane projektowe",
-          "active": false
+          "active": true
         },
         {
           "id": 3,
@@ -154,12 +129,12 @@
         {
           "id": 1,
           "name": "dane geodezyjne",
-          "active": false
+          "active": true
         },
         {
           "id": 2,
           "name": "dane projektowe",
-          "active": false
+          "active": true
         },
         {
           "id": 3,
@@ -271,12 +246,12 @@
         {
           "id": 4,
           "name": "dane sekcji prawnej",
-          "active": false
+          "active": true
         },
         {
           "id": 5,
           "name": "pliki geodezyjne",
-          "active": false
+          "active": true
         },
         {
           "id": 6,
