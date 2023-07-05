@@ -1,11 +1,11 @@
 {
   "user": [
     {
-      "userName": "Michał Sze",
+      "userName": "Michał Sz",
       "password": "testtest",
       "id": "michal@gmail.com",
       "permission": "Koordynacja",
-      "color": "bg-green-4",
+      "color": "green-3",
       "permissions": [
         {
           "id": 1,
@@ -56,7 +56,7 @@
       "password": "",
       "id": "test@gmail.com",
       "permission": "Księgowy",
-      "color": "bg-purple",
+      "color": "purple",
       "permissions": [
         {
           "id": 1,
@@ -97,7 +97,7 @@
       "password": "",
       "id": "nowy@o2.pl",
       "permission": "Projektant",
-      "color": "bg-light-orange",
+      "color": "green-4",
       "status": "blocked",
       "permissions": [
         {
@@ -148,7 +148,7 @@
       "password": "",
       "id": "nowdsasdacxzxczy@o2.pl",
       "permission": "Księgowy",
-      "color": "bg-dark-gray",
+      "color": "green",
       "status": "active",
       "permissions": [
         {
@@ -199,7 +199,7 @@
       "password": "",
       "id": "nowy@o2fafafas.pl",
       "permission": "Koordynacja",
-      "color": "bg-dark-blue",
+      "color": "dark-blue",
       "status": "active",
       "permissions": [
         {
@@ -247,11 +247,11 @@
     },
     {
       "userName": "Nowy użytkownik",
-      "password": "",
+      "password": "testtest",
       "id": "naadssaowy@o2.pl",
       "permission": "Koordynacja",
-      "color": "bg-light-red",
-      "status": "blocked",
+      "color": "pink",
+      "status": "active",
       "permissions": [
         {
           "id": 1,
@@ -301,7 +301,7 @@
       "password": "",
       "id": "nocxcxzxzwy@o2.pl",
       "permission": "Administrator",
-      "color": "bg-yellow",
+      "color": "yellow",
       "status": "blocked",
       "permissions": [
         {
@@ -327,7 +327,7 @@
       "password": "",
       "id": "now525fsdy@o2.pl",
       "permission": "Geodezja",
-      "color": "bg-light-blue-2",
+      "color": "light-blue-2",
       "status": "blocked",
       "permissions": [
         {
@@ -368,7 +368,7 @@
       "password": "",
       "id": "noweqwewqy@o2.pl",
       "permission": "Geodezja",
-      "color": "bg-green-4",
+      "color": "green-4",
       "status": "blocked",
       "permissions": [
         {
@@ -403,14 +403,6 @@
         }
       ],
       "repeatPassword": ""
-    },
-    {
-      "userName": "admin",
-      "password": "admin",
-      "id": "admin",
-      "permission": "",
-      "color": "blue",
-      "status": "active"
     }
   ],
   "notifications": {
@@ -442,7 +434,7 @@
       },
       {
         "email": true,
-        "web": false,
+        "web": true,
         "name": "zakończenie opracowania geodezyjnego (dla projektanta/opracowującego) (w momencie wpisania daty klauzuli pojawia się powiadomienie dla projektanta)"
       },
       {
