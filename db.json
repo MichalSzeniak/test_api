@@ -1,25 +1,40 @@
 {
   "user": [
     {
-      "userName": "Michał Szen",
+      "userName": "Michał Szeniak",
       "password": "testtest",
       "id": "michal@gmail.com",
-      "permission": "Administrator",
-      "color": "pink-2",
+      "permission": "Geodezja",
+      "color": "green-4",
       "permissions": [
         {
           "id": 1,
-          "name": "SOK - Sekcja obsługi Klienta",
+          "name": "dane geodezyjne",
           "active": true
         },
         {
           "id": 2,
-          "name": "SFP - Sekcja formalno prawna",
+          "name": "dane projektowe",
           "active": true
         },
         {
           "id": 3,
-          "name": "SOI - Sekcja odbioru inwestycji",
+          "name": "dane realizacji",
+          "active": true
+        },
+        {
+          "id": 4,
+          "name": "pliki geodezyjne",
+          "active": true
+        },
+        {
+          "id": 5,
+          "name": "pliki projektowe",
+          "active": true
+        },
+        {
+          "id": 6,
+          "name": "pliki realizacji",
           "active": true
         }
       ],
@@ -27,63 +42,22 @@
       "repeatPassword": ""
     },
     {
-      "userName": "test",
-      "password": "",
-      "id": "test@gmail.com",
-      "permission": "Księgowy",
-      "color": "purple",
-      "permissions": [
-        {
-          "id": 1,
-          "name": "dane geodezyjne",
-          "active": false
-        },
-        {
-          "id": 2,
-          "name": "dane projektowe",
-          "active": true
-        },
-        {
-          "id": 3,
-          "name": "dane realizacji",
-          "active": false
-        },
-        {
-          "id": 4,
-          "name": "pliki geodezyjne",
-          "active": true
-        },
-        {
-          "id": 5,
-          "name": "pliki projektowe",
-          "active": false
-        },
-        {
-          "id": 6,
-          "name": "pliki realizacji",
-          "active": true
-        }
-      ],
-      "status": "blocked",
-      "repeatPassword": ""
-    },
-    {
       "userName": "Nowy użytkownik",
       "password": "",
       "id": "nowy@o2.pl",
-      "permission": "Projektant",
-      "color": "green-4",
-      "status": "blocked",
+      "permission": "Kierownik brygady",
+      "color": "light-red",
+      "status": "active",
       "permissions": [
         {
           "id": 1,
           "name": "dane geodezyjne",
-          "active": true
+          "active": false
         },
         {
           "id": 2,
           "name": "dane projektowe",
-          "active": true
+          "active": false
         },
         {
           "id": 3,
@@ -92,27 +66,17 @@
         },
         {
           "id": 4,
-          "name": "dane sekcji prawnej",
-          "active": false
-        },
-        {
-          "id": 5,
           "name": "pliki geodezyjne",
           "active": false
         },
         {
-          "id": 6,
+          "id": 5,
           "name": "pliki projektowe",
           "active": false
         },
         {
-          "id": 7,
+          "id": 6,
           "name": "pliki realizacji",
-          "active": false
-        },
-        {
-          "id": 8,
-          "name": "pliki sekcji prawnej",
           "active": false
         }
       ],
@@ -122,7 +86,7 @@
       "userName": "Użytkownik testowy",
       "password": "",
       "id": "nowdsasdacxzxczy@o2.pl",
-      "permission": "Księgowy",
+      "permission": "Kierownik brygady",
       "color": "green",
       "status": "active",
       "permissions": [
@@ -139,32 +103,22 @@
         {
           "id": 3,
           "name": "dane realizacji",
-          "active": false
+          "active": true
         },
         {
           "id": 4,
-          "name": "dane sekcji prawnej",
-          "active": false
+          "name": "pliki geodezyjne",
+          "active": true
         },
         {
           "id": 5,
-          "name": "pliki geodezyjne",
-          "active": false
+          "name": "pliki projektowe",
+          "active": true
         },
         {
           "id": 6,
-          "name": "pliki projektowe",
-          "active": false
-        },
-        {
-          "id": 7,
           "name": "pliki realizacji",
-          "active": false
-        },
-        {
-          "id": 8,
-          "name": "pliki sekcji prawnej",
-          "active": false
+          "active": true
         }
       ],
       "repeatPassword": ""
@@ -173,7 +127,7 @@
       "userName": "Mirosław Baryłka",
       "password": "",
       "id": "nowy@o2fafafas.pl",
-      "permission": "Koordynacja",
+      "permission": "Projektant",
       "color": "dark-blue",
       "status": "active",
       "permissions": [
@@ -190,17 +144,17 @@
         {
           "id": 3,
           "name": "dane realizacji",
-          "active": false
+          "active": true
         },
         {
           "id": 4,
           "name": "dane sekcji prawnej",
-          "active": false
+          "active": true
         },
         {
           "id": 5,
           "name": "pliki geodezyjne",
-          "active": false
+          "active": true
         },
         {
           "id": 6,
@@ -210,12 +164,12 @@
         {
           "id": 7,
           "name": "pliki realizacji",
-          "active": false
+          "active": true
         },
         {
           "id": 8,
           "name": "pliki sekcji prawnej",
-          "active": false
+          "active": true
         }
       ],
       "repeatPassword": ""
@@ -224,51 +178,10 @@
       "userName": "Nowy użytkownik",
       "password": "testtest",
       "id": "naadssaowy@o2.pl",
-      "permission": "Koordynacja",
+      "permission": "Pracownicy zewnętrzni",
       "color": "pink",
       "status": "active",
-      "permissions": [
-        {
-          "id": 1,
-          "name": "dane geodezyjne",
-          "active": false
-        },
-        {
-          "id": 2,
-          "name": "dane projektowe",
-          "active": false
-        },
-        {
-          "id": 3,
-          "name": "dane realizacji",
-          "active": false
-        },
-        {
-          "id": 4,
-          "name": "dane sekcji prawnej",
-          "active": true
-        },
-        {
-          "id": 5,
-          "name": "pliki geodezyjne",
-          "active": true
-        },
-        {
-          "id": 6,
-          "name": "pliki projektowe",
-          "active": false
-        },
-        {
-          "id": 7,
-          "name": "pliki realizacji",
-          "active": false
-        },
-        {
-          "id": 8,
-          "name": "pliki sekcji prawnej",
-          "active": false
-        }
-      ],
+      "permissions": [{}],
       "repeatPassword": ""
     },
     {
@@ -378,6 +291,41 @@
         }
       ],
       "repeatPassword": ""
+    },
+    {
+      "userName": "Prezentacja",
+      "password": "!QAZxsw2",
+      "id": "prezentacja@gmail.com",
+      "permission": "Administrator",
+      "color": "green-3",
+      "status": "active",
+      "permissions": [
+        {
+          "id": 1,
+          "name": "SOK - Sekcja obsługi Klienta",
+          "active": true
+        },
+        {
+          "id": 2,
+          "name": "SFP - Sekcja formalno prawna",
+          "active": true
+        },
+        {
+          "id": 3,
+          "name": "SOI - Sekcja odbioru inwestycji",
+          "active": true
+        },
+        {
+          "id": 4,
+          "name": "postępowania przetargowe",
+          "active": false
+        },
+        {
+          "id": 5,
+          "name": "umowy",
+          "active": false
+        }
+      ]
     }
   ],
   "notifications": {
@@ -418,8 +366,8 @@
         "name": "Przydzielenie do kierownika Sekcji formalno-prawnej"
       },
       {
-        "email": false,
-        "web": false,
+        "email": true,
+        "web": true,
         "name": "przydzielenia nowego zadania dla pracownika SFP"
       },
       {
@@ -453,13 +401,13 @@
         "name": "skierowano do uzupełnienia braków (Kierownik brygad)"
       },
       {
-        "email": false,
-        "web": false,
+        "email": true,
+        "web": true,
         "name": "przydzielenia nowego zadania dla pracownika SOI"
       },
       {
-        "email": false,
-        "web": false,
+        "email": true,
+        "web": true,
         "name": "Protokół techniczny - dla Kierownika SOI"
       },
       {
