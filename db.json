@@ -4,36 +4,36 @@
       "userName": "Michał Szeniak",
       "password": "testtest",
       "id": "michal@gmail.com",
-      "permission": "Geodezja",
-      "color": "green-4",
+      "permission": "Projektant",
+      "color": "light-blue-2",
       "permissions": [
         {
-          "id": 1,
+          "id": 31,
           "name": "dane geodezyjne",
           "active": true
         },
         {
-          "id": 2,
+          "id": 32,
           "name": "dane projektowe",
-          "active": true
+          "active": false
         },
         {
-          "id": 3,
+          "id": 33,
           "name": "dane realizacji",
-          "active": true
+          "active": false
         },
         {
-          "id": 4,
+          "id": 34,
           "name": "pliki geodezyjne",
-          "active": true
+          "active": false
         },
         {
-          "id": 5,
+          "id": 35,
           "name": "pliki projektowe",
           "active": true
         },
         {
-          "id": 6,
+          "id": 36,
           "name": "pliki realizacji",
           "active": true
         }
@@ -45,38 +45,33 @@
       "userName": "Nowy użytkownik",
       "password": "",
       "id": "nowy@o2.pl",
-      "permission": "Kierownik brygady",
+      "permission": "Administrator",
       "color": "light-red",
       "status": "active",
       "permissions": [
         {
           "id": 1,
-          "name": "dane geodezyjne",
-          "active": false
+          "name": "SOK - Sekcja obsługi Klienta",
+          "active": true
         },
         {
           "id": 2,
-          "name": "dane projektowe",
-          "active": false
+          "name": "SFP - Sekcja formalno prawna",
+          "active": true
         },
         {
           "id": 3,
-          "name": "dane realizacji",
-          "active": false
+          "name": "SOI - Sekcja odbioru inwestycji",
+          "active": true
         },
         {
           "id": 4,
-          "name": "pliki geodezyjne",
+          "name": "postępowania przetargowe",
           "active": false
         },
         {
           "id": 5,
-          "name": "pliki projektowe",
-          "active": false
-        },
-        {
-          "id": 6,
-          "name": "pliki realizacji",
+          "name": "umowy",
           "active": false
         }
       ],
@@ -86,46 +81,66 @@
       "userName": "Użytkownik testowy",
       "password": "",
       "id": "nowdsasdacxzxczy@o2.pl",
-      "permission": "Kierownik brygady",
+      "permission": "Księgowy",
       "color": "green",
       "status": "active",
       "permissions": [
         {
-          "id": 1,
+          "id": 41,
           "name": "dane geodezyjne",
           "active": true
         },
         {
-          "id": 2,
+          "id": 42,
           "name": "dane projektowe",
           "active": true
         },
         {
-          "id": 3,
+          "id": 43,
           "name": "dane realizacji",
           "active": true
         },
         {
-          "id": 4,
+          "id": 44,
+          "name": "dane sekcji prawnej",
+          "active": true
+        },
+        {
+          "id": 45,
           "name": "pliki geodezyjne",
           "active": true
         },
         {
-          "id": 5,
+          "id": 46,
           "name": "pliki projektowe",
           "active": true
         },
         {
-          "id": 6,
+          "id": 47,
           "name": "pliki realizacji",
           "active": true
+        },
+        {
+          "id": 48,
+          "name": "pliki sekcji prawnej",
+          "active": true
+        },
+        {
+          "id": 49,
+          "name": "postępowania przetargowe",
+          "active": false
+        },
+        {
+          "id": 410,
+          "name": "umowy",
+          "active": false
         }
       ],
       "repeatPassword": ""
     },
     {
       "userName": "Mirosław Baryłka",
-      "password": "",
+      "password": "testtest",
       "id": "nowy@o2fafafas.pl",
       "permission": "Projektant",
       "color": "dark-blue",
@@ -181,7 +196,9 @@
       "permission": "Pracownicy zewnętrzni",
       "color": "pink",
       "status": "active",
-      "permissions": [{}],
+      "permissions": [
+        {}
+      ],
       "repeatPassword": ""
     },
     {
@@ -347,7 +364,7 @@
       },
       {
         "email": true,
-        "web": true,
+        "web": false,
         "name": "Pracownia geodezji w momencie przydzielenia zadania przez projektanta"
       },
       {
@@ -356,7 +373,7 @@
         "name": "przydzielenia nowego zadania dla geodety"
       },
       {
-        "email": true,
+        "email": false,
         "web": true,
         "name": "zakończenie opracowania geodezyjnego (dla projektanta/opracowującego) (w momencie wpisania daty klauzuli pojawia się powiadomienie dla projektanta)"
       },
@@ -416,5 +433,67 @@
         "name": "Zadanie zakończone - dla Kierownika SOI"
       }
     ]
-  }
+  },
+  "files": [
+    {
+      "id": 1,
+      "header": "Nazwa wzoru 1",
+      "title": "Nazwa wzoru 1",
+      "startDate": "11.11.2021",
+      "editDate": "12.11.2021",
+      "createdBy": "Michał Szeniak",
+      "status": "active",
+      "content": ""
+    },
+    {
+      "id": 2,
+      "header": "Nazwa wzoru 2",
+      "title": "Nazwa wzoru 2",
+      "startDate": "11.11.2021",
+      "editDate": "12.11.2021",
+      "createdBy": "Michał Szeniak",
+      "status": "archived",
+      "content": ""
+    },
+    {
+      "id": 3,
+      "header": "asdsdasadcxzxzc",
+      "title": "Nazwa wzoru 3",
+      "startDate": "18.07.2023",
+      "editDate": "",
+      "createdBy": "Michał Szeniak",
+      "status": "archived",
+      "content": ""
+    },
+    {
+      "header": "test",
+      "title": "czxxczxcz ",
+      "startDate": "21.07.2023",
+      "editDate": "24.07.2023",
+      "createdBy": "Michał Szeniak",
+      "status": "active",
+      "content": "<div><span id=\"test\" class=\"Zakres zlecenia\" style=\"font-weight: 600;\">#Zakres zlecenia&nbsp;<span id=\"test\" class=\"Numer zlecenia\" style=\"font-weight: 600;\">#Numer zlecenia <span id=\"test\" class=\"Telefon Klienta\" style=\"font-weight: 600;\">#Telefon Klienta</span></span></span></div>",
+      "id": 4
+    },
+    {
+      "header": "miasto ulica",
+      "title": "cxzxcxcz",
+      "startDate": "21.07.2023",
+      "editDate": "24.07.2023",
+      "createdBy": "Michał Szeniak",
+      "status": "active",
+      "content": "<div style=\"text-align: center;\"><strong>Test</strong></div>\n<div style=\"text-align: left;\">Miasto: <span id=\"test\" class=\"Miejscowość\" style=\"font-weight: 600;\">#Miejscowość</span></div>\n<div style=\"text-align: left;\"><span class=\"Miejscowość\">Ulica: <span id=\"test\" class=\"Ulica\" style=\"font-weight: 600;\">#Ulica</span></span></div>\n<div style=\"text-align: left;\"><span class=\"Miejscowość\"><span class=\"Ulica\">numer zlecenia: <span id=\"test\" class=\"Numer zlecenia\" style=\"font-weight: 600;\">#Numer zlecenia</span></span></span></div>",
+      "id": 5
+    },
+    {
+      "header": "dassda",
+      "title": "sasda",
+      "startDate": "24.07.2023",
+      "editDate": "",
+      "createdBy": "Michał Szeniak",
+      "status": "active",
+      "content": "<div>#dsadas</div>",
+      "id": 6
+    }
+  ]
 }
