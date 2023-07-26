@@ -339,49 +339,49 @@
           "id": 5,
           "name": "umowy",
           "active": false
-        },
-        {
-          "userName": "grupainstalbud",
-          "password": "12345678K*",
-          "id": "info@grupainstalbud.pl",
-          "permission": "Projektant",
-          "color": "light-blue-2",
-          "permissions": [
-            {
-              "id": 31,
-              "name": "dane geodezyjne",
-              "active": true
-            },
-            {
-              "id": 32,
-              "name": "dane projektowe",
-              "active": false
-            },
-            {
-              "id": 33,
-              "name": "dane realizacji",
-              "active": false
-            },
-            {
-              "id": 34,
-              "name": "pliki geodezyjne",
-              "active": false
-            },
-            {
-              "id": 35,
-              "name": "pliki projektowe",
-              "active": true
-            },
-            {
-              "id": 36,
-              "name": "pliki realizacji",
-              "active": true
-            }
-          ],
-          "status": "active",
-          "repeatPassword": ""
         }
       ]
+    },
+    {
+      "userName": "grupainstalbud",
+      "password": "12345678K*",
+      "id": "info@grupainstalbud.pl",
+      "permission": "Projektant",
+      "color": "light-blue-2",
+      "permissions": [
+        {
+          "id": 31,
+          "name": "dane geodezyjne",
+          "active": true
+        },
+        {
+          "id": 32,
+          "name": "dane projektowe",
+          "active": false
+        },
+        {
+          "id": 33,
+          "name": "dane realizacji",
+          "active": false
+        },
+        {
+          "id": 34,
+          "name": "pliki geodezyjne",
+          "active": false
+        },
+        {
+          "id": 35,
+          "name": "pliki projektowe",
+          "active": true
+        },
+        {
+          "id": 36,
+          "name": "pliki realizacji",
+          "active": true
+        }
+      ],
+      "status": "active",
+      "repeatPassword": ""
     }
   ],
   "notifications": {
