@@ -1201,7 +1201,11 @@
       "activeStatuses": [
         {
           "name": "do zrobienia",
-          "color": "gray"
+          "color": "dark-gray"
+        },
+        {
+          "name": "Etap 1",
+          "color": "blue"
         }
       ],
       "users": [],
@@ -1236,7 +1240,11 @@
       "activeStatuses": [
         {
           "name": "do zrobienia",
-          "color": "gray"
+          "color": "dark-gray"
+        },
+        {
+          "name": "Etap - 1",
+          "color": "light-red"
         }
       ],
       "users": [
