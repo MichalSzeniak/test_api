@@ -524,13 +524,14 @@
           "id": "nowy@o2fafafas.pl"
         }
       ],
-      "closedStatus": {
+      "closeStatus": {
         "name": "Zakończone",
         "color": "green"
       },
+      "status": "active",
       "projectInfo": {
-        "Numer umowy przyłączeniowej": "",
-        "Numer umowy ramowej": "",
+        "Numer umowy przyłączeniowej": "test 123",
+        "Numer umowy ramowej": "xzcxczxczxc",
         "Miejscowość": "",
         "Ulica": "",
         "Działki": "",
@@ -598,10 +599,11 @@
           "id": "noweqwewqy@o2.pl"
         }
       ],
-      "closedStatus": {
+      "closeStatus": {
         "name": "Zakończone",
         "color": "green"
       },
+      "status": "active",
       "projectInfo": {
         "Numer umowy przyłączeniowej": "",
         "Numer umowy ramowej": "",
@@ -622,6 +624,667 @@
         "Termin realizacji zlecenia": ""
       },
       "id": 3
+    },
+    {
+      "name": "Nowy projekt 222",
+      "createdBy": {
+        "userName": "Michał Szeniak",
+        "color": "blue"
+      },
+      "activeStatuses": [
+        {
+          "name": "do zrobienia",
+          "color": "green"
+        },
+        {
+          "id": "446e4692-6266-446e-ae85-b42d8bc393d7",
+          "name": "asddsasdacxzxzc",
+          "color": "light-blue-2"
+        },
+        {
+          "id": "df22d39c-8176-4da6-bdb1-b631931520fd",
+          "name": "sdasda",
+          "color": "light-red"
+        }
+      ],
+      "users": [
+        {
+          "userName": "Nowy użytkownik",
+          "color": "light-red",
+          "id": "nowy@o2.pl"
+        },
+        {
+          "userName": "Nowy użytkownik",
+          "color": "pink",
+          "id": "naadssaowy@o2.pl"
+        },
+        {
+          "userName": "Nowy użytkownik",
+          "color": "yellow",
+          "id": "nocxcxzxzwy@o2.pl"
+        },
+        {
+          "userName": "Nowy użytkownik",
+          "color": "light-blue-2",
+          "id": "now525fsdy@o2.pl"
+        },
+        {
+          "userName": "Nowy użytkownik",
+          "color": "green-4",
+          "id": "noweqwewqy@o2.pl"
+        }
+      ],
+      "closeStatus": {
+        "name": "Zakończone",
+        "color": "green"
+      },
+      "status": "active",
+      "projectInfo": {
+        "Numer umowy przyłączeniowej": "",
+        "Numer umowy ramowej": "",
+        "Miejscowość": "",
+        "Ulica": "",
+        "Działki": "",
+        "Rodzaj dokumentacji projektowej": "",
+        "Zakres zlecenia": "",
+        "Klient": "",
+        "Telefon Klienta": "",
+        "Numer zlecenia": "",
+        "Data zlecenia": "",
+        "Data otrzymania zlecenia": "",
+        "Wstępna wycena": "",
+        "Jednostka prowadząca umowę": "",
+        "Koordynator zlecenia PSG": "",
+        "Mistrz": "",
+        "Termin realizacji zlecenia": ""
+      },
+      "id": 4
+    },
+    {
+      "name": "Nowy projekt 222",
+      "createdBy": {
+        "userName": "Michał Szeniak",
+        "color": "blue"
+      },
+      "activeStatuses": [
+        {
+          "name": "do zrobienia",
+          "color": "green"
+        },
+        {
+          "id": "446e4692-6266-446e-ae85-b42d8bc393d7",
+          "name": "asddsasdacxzxzc",
+          "color": "light-blue-2"
+        },
+        {
+          "id": "df22d39c-8176-4da6-bdb1-b631931520fd",
+          "name": "sdasda",
+          "color": "light-red"
+        }
+      ],
+      "users": [
+        {
+          "userName": "Nowy użytkownik",
+          "color": "light-red",
+          "id": "nowy@o2.pl"
+        },
+        {
+          "userName": "Nowy użytkownik",
+          "color": "pink",
+          "id": "naadssaowy@o2.pl"
+        },
+        {
+          "userName": "Nowy użytkownik",
+          "color": "yellow",
+          "id": "nocxcxzxzwy@o2.pl"
+        },
+        {
+          "userName": "Nowy użytkownik",
+          "color": "light-blue-2",
+          "id": "now525fsdy@o2.pl"
+        },
+        {
+          "userName": "Nowy użytkownik",
+          "color": "green-4",
+          "id": "noweqwewqy@o2.pl"
+        }
+      ],
+      "closeStatus": {
+        "name": "Zakończone",
+        "color": "green"
+      },
+      "status": "active",
+      "projectInfo": {
+        "Numer umowy przyłączeniowej": "",
+        "Numer umowy ramowej": "",
+        "Miejscowość": "",
+        "Ulica": "",
+        "Działki": "",
+        "Rodzaj dokumentacji projektowej": "",
+        "Zakres zlecenia": "",
+        "Klient": "",
+        "Telefon Klienta": "",
+        "Numer zlecenia": "",
+        "Data zlecenia": "",
+        "Data otrzymania zlecenia": "",
+        "Wstępna wycena": "",
+        "Jednostka prowadząca umowę": "",
+        "Koordynator zlecenia PSG": "",
+        "Mistrz": "",
+        "Termin realizacji zlecenia": ""
+      },
+      "id": 5
+    },
+    {
+      "name": "Nowy projekt 222",
+      "createdBy": {
+        "userName": "Michał Szeniak",
+        "color": "blue"
+      },
+      "activeStatuses": [
+        {
+          "name": "do zrobienia",
+          "color": "green"
+        },
+        {
+          "id": "446e4692-6266-446e-ae85-b42d8bc393d7",
+          "name": "asddsasdacxzxzc",
+          "color": "light-blue-2"
+        },
+        {
+          "id": "df22d39c-8176-4da6-bdb1-b631931520fd",
+          "name": "sdasda",
+          "color": "light-red"
+        }
+      ],
+      "users": [
+        {
+          "userName": "Nowy użytkownik",
+          "color": "light-red",
+          "id": "nowy@o2.pl"
+        },
+        {
+          "userName": "Nowy użytkownik",
+          "color": "pink",
+          "id": "naadssaowy@o2.pl"
+        },
+        {
+          "userName": "Nowy użytkownik",
+          "color": "yellow",
+          "id": "nocxcxzxzwy@o2.pl"
+        },
+        {
+          "userName": "Nowy użytkownik",
+          "color": "light-blue-2",
+          "id": "now525fsdy@o2.pl"
+        },
+        {
+          "userName": "Nowy użytkownik",
+          "color": "green-4",
+          "id": "noweqwewqy@o2.pl"
+        }
+      ],
+      "closeStatus": {
+        "name": "Zakończone",
+        "color": "green"
+      },
+      "status": "active",
+      "projectInfo": {
+        "Numer umowy przyłączeniowej": "",
+        "Numer umowy ramowej": "",
+        "Miejscowość": "",
+        "Ulica": "",
+        "Działki": "",
+        "Rodzaj dokumentacji projektowej": "",
+        "Zakres zlecenia": "",
+        "Klient": "",
+        "Telefon Klienta": "",
+        "Numer zlecenia": "",
+        "Data zlecenia": "",
+        "Data otrzymania zlecenia": "",
+        "Wstępna wycena": "",
+        "Jednostka prowadząca umowę": "",
+        "Koordynator zlecenia PSG": "",
+        "Mistrz": "",
+        "Termin realizacji zlecenia": ""
+      },
+      "id": 6
+    },
+    {
+      "name": "Nowy projekt 222",
+      "createdBy": {
+        "userName": "Michał Szeniak",
+        "color": "blue"
+      },
+      "activeStatuses": [
+        {
+          "name": "do zrobienia",
+          "color": "green"
+        },
+        {
+          "id": "446e4692-6266-446e-ae85-b42d8bc393d7",
+          "name": "asddsasdacxzxzc",
+          "color": "light-blue-2"
+        },
+        {
+          "id": "df22d39c-8176-4da6-bdb1-b631931520fd",
+          "name": "sdasda",
+          "color": "light-red"
+        }
+      ],
+      "users": [
+        {
+          "userName": "Nowy użytkownik",
+          "color": "light-red",
+          "id": "nowy@o2.pl"
+        },
+        {
+          "userName": "Nowy użytkownik",
+          "color": "pink",
+          "id": "naadssaowy@o2.pl"
+        },
+        {
+          "userName": "Nowy użytkownik",
+          "color": "yellow",
+          "id": "nocxcxzxzwy@o2.pl"
+        },
+        {
+          "userName": "Nowy użytkownik",
+          "color": "light-blue-2",
+          "id": "now525fsdy@o2.pl"
+        },
+        {
+          "userName": "Nowy użytkownik",
+          "color": "green-4",
+          "id": "noweqwewqy@o2.pl"
+        }
+      ],
+      "closeStatus": {
+        "name": "Zakończone",
+        "color": "green"
+      },
+      "status": "active",
+      "projectInfo": {
+        "Numer umowy przyłączeniowej": "",
+        "Numer umowy ramowej": "",
+        "Miejscowość": "",
+        "Ulica": "",
+        "Działki": "",
+        "Rodzaj dokumentacji projektowej": "",
+        "Zakres zlecenia": "",
+        "Klient": "",
+        "Telefon Klienta": "",
+        "Numer zlecenia": "",
+        "Data zlecenia": "",
+        "Data otrzymania zlecenia": "",
+        "Wstępna wycena": "",
+        "Jednostka prowadząca umowę": "",
+        "Koordynator zlecenia PSG": "",
+        "Mistrz": "",
+        "Termin realizacji zlecenia": ""
+      },
+      "id": 7
+    },
+    {
+      "name": "Nowy 10",
+      "createdBy": {
+        "userName": "Michał Szeniak",
+        "color": "blue"
+      },
+      "activeStatuses": [
+        {
+          "name": "do zrobienia",
+          "color": "green"
+        },
+        {
+          "id": "446e4692-6266-446e-ae85-b42d8bc393d7",
+          "name": "asddsasdacxzxzc",
+          "color": "light-blue-2"
+        },
+        {
+          "id": "df22d39c-8176-4da6-bdb1-b631931520fd",
+          "name": "sdasda",
+          "color": "light-red"
+        }
+      ],
+      "users": [
+        {
+          "userName": "Nowy użytkownik",
+          "color": "light-red",
+          "id": "nowy@o2.pl"
+        },
+        {
+          "userName": "Nowy użytkownik",
+          "color": "pink",
+          "id": "naadssaowy@o2.pl"
+        },
+        {
+          "userName": "Nowy użytkownik",
+          "color": "yellow",
+          "id": "nocxcxzxzwy@o2.pl"
+        },
+        {
+          "userName": "Nowy użytkownik",
+          "color": "light-blue-2",
+          "id": "now525fsdy@o2.pl"
+        },
+        {
+          "userName": "Nowy użytkownik",
+          "color": "green-4",
+          "id": "noweqwewqy@o2.pl"
+        }
+      ],
+      "closeStatus": {
+        "name": "Zakończone",
+        "color": "green"
+      },
+      "status": "active",
+      "projectInfo": {
+        "Numer umowy przyłączeniowej": "",
+        "Numer umowy ramowej": "",
+        "Miejscowość": "",
+        "Ulica": "",
+        "Działki": "",
+        "Rodzaj dokumentacji projektowej": "",
+        "Zakres zlecenia": "",
+        "Klient": "",
+        "Telefon Klienta": "",
+        "Numer zlecenia": "",
+        "Data zlecenia": "",
+        "Data otrzymania zlecenia": "",
+        "Wstępna wycena": "",
+        "Jednostka prowadząca umowę": "",
+        "Koordynator zlecenia PSG": "",
+        "Mistrz": "",
+        "Termin realizacji zlecenia": ""
+      },
+      "id": 8
+    },
+    {
+      "name": "Projekt test archiwum",
+      "createdBy": {
+        "userName": "Michał Szeniak",
+        "color": "blue"
+      },
+      "activeStatuses": [
+        {
+          "name": "do zrobienia",
+          "color": "green"
+        },
+        {
+          "id": "446e4692-6266-446e-ae85-b42d8bc393d7",
+          "name": "asddsasdacxzxzc",
+          "color": "light-blue-2"
+        },
+        {
+          "id": "df22d39c-8176-4da6-bdb1-b631931520fd",
+          "name": "sdasda",
+          "color": "light-red"
+        }
+      ],
+      "users": [
+        {
+          "userName": "Nowy użytkownik",
+          "color": "light-red",
+          "id": "nowy@o2.pl"
+        },
+        {
+          "userName": "Nowy użytkownik",
+          "color": "pink",
+          "id": "naadssaowy@o2.pl"
+        },
+        {
+          "userName": "Nowy użytkownik",
+          "color": "yellow",
+          "id": "nocxcxzxzwy@o2.pl"
+        },
+        {
+          "userName": "Nowy użytkownik",
+          "color": "light-blue-2",
+          "id": "now525fsdy@o2.pl"
+        },
+        {
+          "userName": "Nowy użytkownik",
+          "color": "green-4",
+          "id": "noweqwewqy@o2.pl"
+        }
+      ],
+      "closeStatus": {
+        "name": "Zakończone",
+        "color": "green"
+      },
+      "status": "archived",
+      "projectInfo": {
+        "Numer umowy przyłączeniowej": "",
+        "Numer umowy ramowej": "",
+        "Miejscowość": "",
+        "Ulica": "",
+        "Działki": "",
+        "Rodzaj dokumentacji projektowej": "",
+        "Zakres zlecenia": "",
+        "Klient": "",
+        "Telefon Klienta": "",
+        "Numer zlecenia": "",
+        "Data zlecenia": "",
+        "Data otrzymania zlecenia": "",
+        "Wstępna wycena": "",
+        "Jednostka prowadząca umowę": "",
+        "Koordynator zlecenia PSG": "",
+        "Mistrz": "",
+        "Termin realizacji zlecenia": ""
+      },
+      "id": 9
+    },
+    {
+      "name": "Test skopiowany",
+      "createdBy": {
+        "userName": "Michał Szeniak",
+        "color": "blue"
+      },
+      "activeStatuses": [
+        {
+          "name": "do zrobienia",
+          "color": "yellow"
+        },
+        {
+          "id": "80e49688-992f-44f5-b595-9ab6a6fde50f",
+          "name": "kolejny etap",
+          "color": "light-blue-2"
+        },
+        {
+          "id": "60ca499c-f32e-496d-9e43-693f0ecfd357",
+          "name": "nowy skopiowany",
+          "color": "dark-gray"
+        }
+      ],
+      "status": "active",
+      "users": [
+        {
+          "userName": "Mirosław Baryłka",
+          "color": "dark-blue",
+          "id": "nowy@o2fafafas.pl"
+        },
+        {
+          "userName": "Użytkownik testowy",
+          "color": "green",
+          "id": "nowdsasdacxzxczy@o2.pl"
+        }
+      ],
+      "closeStatus": {
+        "name": "Zakończone",
+        "color": "green"
+      },
+      "projectInfo": {
+        "Numer umowy przyłączeniowej": "test 123",
+        "Numer umowy ramowej": "xzcxczxczxc",
+        "Miejscowość": "skopiowane",
+        "Ulica": "",
+        "Działki": "",
+        "Rodzaj dokumentacji projektowej": "",
+        "Zakres zlecenia": "",
+        "Klient": "",
+        "Telefon Klienta": "",
+        "Numer zlecenia": "",
+        "Data zlecenia": "",
+        "Data otrzymania zlecenia": "",
+        "Wstępna wycena": "",
+        "Jednostka prowadząca umowę": "",
+        "Koordynator zlecenia PSG": "",
+        "Mistrz": "",
+        "Termin realizacji zlecenia": ""
+      },
+      "id": 10
+    },
+    {
+      "name": "Testdassda asdsadas",
+      "createdBy": {
+        "userName": "Michał Szeniak",
+        "color": "blue"
+      },
+      "activeStatuses": [
+        {
+          "name": "do zrobienia",
+          "color": "yellow"
+        },
+        {
+          "id": "80e49688-992f-44f5-b595-9ab6a6fde50f",
+          "name": "kolejny etap",
+          "color": "light-blue-2"
+        }
+      ],
+      "users": [
+        {
+          "userName": "Prezentacja",
+          "color": "green-3",
+          "id": "prezentacja@gmail.com"
+        },
+        {
+          "userName": "Mirosław Baryłka",
+          "color": "dark-blue",
+          "id": "nowy@o2fafafas.pl"
+        }
+      ],
+      "closeStatus": {
+        "name": "Zakończone",
+        "color": "green"
+      },
+      "projectInfo": {
+        "Numer umowy przyłączeniowej": "test 123",
+        "Numer umowy ramowej": "xzcxczxczxc",
+        "Miejscowość": "",
+        "Ulica": "",
+        "Działki": "",
+        "Rodzaj dokumentacji projektowej": "",
+        "Zakres zlecenia": "",
+        "Klient": "",
+        "Telefon Klienta": "",
+        "Numer zlecenia": "",
+        "Data zlecenia": "",
+        "Data otrzymania zlecenia": "",
+        "Wstępna wycena": "",
+        "Jednostka prowadząca umowę": "",
+        "Koordynator zlecenia PSG": "",
+        "Mistrz": "",
+        "Termin realizacji zlecenia": ""
+      },
+      "status": "active",
+      "id": 11
+    }
+  ],
+  "template": [
+    {
+      "name": "Template 1",
+      "createdBy": {
+        "userName": "Michał Szeniak",
+        "color": "blue"
+      },
+      "activeStatuses": [
+        {
+          "name": "do zrobienia",
+          "color": "gray"
+        }
+      ],
+      "users": [],
+      "closeStatus": {
+        "name": "Zakończone",
+        "color": "green"
+      },
+      "projectInfo": {
+        "Numer umowy przyłączeniowej": "Numer testowy",
+        "Numer umowy ramowej": "test 2",
+        "Miejscowość": "Kraków",
+        "Ulica": "Rynek",
+        "Działki": "Tak",
+        "Rodzaj dokumentacji projektowej": "",
+        "Zakres zlecenia": "",
+        "Klient": "",
+        "Telefon Klienta": "",
+        "Numer zlecenia": "",
+        "Data zlecenia": "",
+        "Data otrzymania zlecenia": "",
+        "Wstępna wycena": "",
+        "Jednostka prowadząca umowę": "",
+        "Koordynator zlecenia PSG": "",
+        "Mistrz": "",
+        "Termin realizacji zlecenia": ""
+      },
+      "status": "active",
+      "id": 1
+    },
+    {
+      "name": "Template 2",
+      "activeStatuses": [
+        {
+          "name": "do zrobienia",
+          "color": "gray"
+        }
+      ],
+      "users": [
+        {
+          "userName": "Mirosław Baryłka",
+          "color": "dark-blue",
+          "id": "nowy@o2fafafas.pl"
+        },
+        {
+          "userName": "Nowy użytkownik",
+          "color": "pink",
+          "id": "naadssaowy@o2.pl"
+        },
+        {
+          "userName": "Użytkownik testowy",
+          "color": "green",
+          "id": "nowdsasdacxzxczy@o2.pl"
+        },
+        {
+          "userName": "Nowy użytkownik",
+          "color": "yellow",
+          "id": "nocxcxzxzwy@o2.pl"
+        }
+      ],
+      "closeStatus": {
+        "name": "Zakończone",
+        "color": "green"
+      },
+      "projectInfo": {
+        "Numer umowy przyłączeniowej": "a",
+        "Numer umowy ramowej": "b",
+        "Miejscowość": "c",
+        "Ulica": "d",
+        "Działki": "",
+        "Rodzaj dokumentacji projektowej": "",
+        "Zakres zlecenia": "",
+        "Klient": "",
+        "Telefon Klienta": "",
+        "Numer zlecenia": "",
+        "Data zlecenia": "",
+        "Data otrzymania zlecenia": "",
+        "Wstępna wycena": "",
+        "Jednostka prowadząca umowę": "",
+        "Koordynator zlecenia PSG": "",
+        "Mistrz": "",
+        "Termin realizacji zlecenia": ""
+      },
+      "id": 2
     }
   ]
 }
